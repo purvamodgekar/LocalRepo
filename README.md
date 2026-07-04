@@ -1,1 +1,73 @@
-# this is my localrepo
+
+CONFIGURING GIT:
+git config --global user.name "name of the user"
+git config --global user.email "email address of user"
+git config --list
+
+
+GIT-COMMANDS
+
+CLONE:USED TO COPY A REPO ON THE LOCAL MATCHINE/LAPTOP
+     git clone link of the project
+CD(CHANGE DIRECTORY):USED TO JUMP INSIDE A FOLDER
+     cd name of the folder
+
+GIT CD ..:USED TO JUMP OUTSIDE A REPO
+
+CLEAR:USED TO CLEAR THE TERMINAL
+
+ls:USED TO LIST ALL FILES
+
+ls -a: used to list files along with the hidden files
+
+STATUS: USED TO KNOW THE STATUS OF THE REPO
+       git status 
+ Types of status
+1}untracked: new file that git is not tracking
+2}modified: files in which changes are made
+3}staged: files which are ready to be committed
+4}unmodified: unchanged files
+
+ADD: used to make the files ready/staged for getting committed
+       git add name of the file/git add .
+
+PUSH: UPLOAD THE CONTENT OF LOCAL REPO ON REMOTE REPO
+     git push origin main
+
+INIT:USED TO CREATE A NEW REPO
+    git init
+
+git remote add origin link of the repo
+
+GIT BRANCH:
+TO CHECK ON WHICH BRANCH WE ARE
+
+GIT BRANCH -M NEW NAME OF THE BRANCH:
+USED TO RENAME A BRANCH
+
+GIT CHECKOUT NAME OF BRANCH WE WANT TO GO ON:
+USED TO JUMP ON A PERTICULAR BRANCH
+
+GIT CHECKOUT -B NAME OF THE NEW BRANCH:
+USED TO CREATE A NEW BRANCH
+
+GIT BRANCH -D NAME OF THE BRANCH:
+USED TO DELETE A BRANCH
+
+GIT DIFF NAME OF THE BRANCH:
+USED TO CHECKTHE DIFFERENCE BETWEET TWO BRANCHES
+
+GIT MERGE NAME OF THE BRANCH:
+USDE TO MERGE TWO BRANCHES
+ 
+ GIT PULL ORIGIN MAIN:
+ USED TO MAKE SIMILAR CHANGES ON LOCAL REPO THAT ARE MADE ON REMOTE REPO 
+
+  WORKFLOW:
+CREATION OF REPO GITHUB
+CLONE THE REPO ON THE LOCAL DEVICE/LAPTOP
+MAKE CHANGES ACCORDING TO THE REQUIRMENTS
+USING "ADD" AND THEN "COMMIT" TO RECORD THE CHANGES MADE
+USE OF PUSH FUNCTION TO PUSH THE CHANGES MADE
+
+
